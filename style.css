@@ -1,0 +1,110 @@
+*{                                   /* the * denotes all the html elements */ 
+    padding:0;                         
+    margin:0;
+    font-family: 'Poppins','sans-serif';
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-color: rgb(12, 14, 14);
+}
+
+.card{
+    text-align: center;
+    margin-top:100px;
+    margin-left:500px;
+    width:100%;           /* div obtain % respective to the parent element, here obtains 90% respective to the browser viewpoints*/
+    max-width: 470px; /*limts the width to a max value of 470px*/
+    background: linear-gradient(135deg, #66ad98, rgb(166, 179, 199));
+    color:white;
+    border-radius: 20px;
+    padding:40px 34px;
+   
+
+}
+.search{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#search {
+    width:90%;
+}
+
+.search input{
+    border:0;
+    outline:0;
+    background:#ebfffc;
+    color:#555;
+    padding:10px 25px;
+    height:60px;
+    border-radius: 30px;
+    flex:1;
+    margin-right:16px;
+    font-size: 18px;
+
+}
+.search button{
+    border:0;
+    outline:0;
+    background:#ebfffc04;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    cursor:pointer;
+
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+    
+
+.temperature{                  /*stylings for h1 tag */
+    font-size: 80px;
+    font-weight: 500;
+}
+.city{                         /*stylings for h2 tag */
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.weather-details{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 40px;
+padding:0 20px;
+}
+
+.col{
+    display:flex;
+    align-items: center;
+    text-align: left;
+
+}
+.col img{
+        width:40px;
+        margin-right: 10px;
+}
+.wind, .humidity{
+    font-size: 28px;
+    margin-top: -2px;
+}
+
+.weather{
+    display:none;
+}
+
+.error{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    display:none;
+}
