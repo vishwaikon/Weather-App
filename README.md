@@ -4,6 +4,10 @@
 
 
 ## Screenshots
+<p align="center">
+
+![1](https://github.com/vishwaikon/Weather-App/assets/75526380/281539aa-ad75-4f0d-ba69-2bc4f10ad5e1)
+</p>
 
 ![1](https://github.com/vishwaikon/Weather-App/assets/75526380/281539aa-ad75-4f0d-ba69-2bc4f10ad5e1)
 
